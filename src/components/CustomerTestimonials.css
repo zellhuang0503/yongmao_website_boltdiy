@@ -1,0 +1,49 @@
+.customer-testimonials {
+  background-color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.customer-testimonials .container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.customer-testimonials h2 {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.customer-testimonials .testimonials-carousel {
+  display: flex;
+  overflow-x: auto; /* 水平滾動條，如果內容超出 */
+  gap: 30px;
+  padding-bottom: 20px; /* 預留滾動條空間 */
+}
+
+.customer-testimonials .testimonial-item {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: left;
+  width: 400px; /* 設定固定寬度，或根據需要調整 */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+  flex: 0 0 auto; /* 不會自動放大或縮小 */
+}
+
+.customer-testimonials .testimonial-item .quote {
+  color: #666;
+  font-size: 1.1em;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.customer-testimonials .testimonial-item .author {
+  color: #777;
+  font-size: 1em;
+  text-align: right;
+  font-weight: bold;
+}

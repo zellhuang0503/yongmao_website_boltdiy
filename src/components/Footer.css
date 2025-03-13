@@ -1,0 +1,57 @@
+.site-footer {
+  background-color: #242433;
+  color: #FBFEF9;
+  padding: 40px 0;
+  font-size: 0.9em;
+}
+
+.site-footer .container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* 允許在小螢幕上換行 */
+}
+
+.site-footer .footer-info,
+.site-footer .footer-links,
+.site-footer .footer-social {
+  margin-bottom: 20px; /* 間隔，尤其在小螢幕上 */
+}
+
+.site-footer .footer-links a {
+  color: #FBFEF9;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.site-footer .footer-links a:hover {
+  text-decoration: underline;
+}
+
+.site-footer .copyright {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%; /* 確保版權訊息置中 */
+}
+
+/* 小螢幕上的調整 */
+@media (max-width: 768px) {
+  .site-footer .container {
+    flex-direction: column;
+    text-align: center; /* 小螢幕上文字置中 */
+  }
+
+  .site-footer .footer-info,
+  .site-footer .footer-links,
+  .site-footer .footer-social {
+    margin-bottom: 30px; /* 加大區塊間隔 */
+  }
+
+  .site-footer .footer-links a {
+    margin-left: 0;
+    margin-right: 20px; /* 連結間隔 */
+  }
+}

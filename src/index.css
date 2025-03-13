@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: '思源黑體', sans-serif;
+  background-color: #191923;
+  color: #FBFEF9; /* 米白色文字 */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  width: 100%; /* 寬度設定為 100% 以響應式佈局為基礎 */
+  max-width: 1440px; /* 最大寬度限制為 1440px */
+  margin: 0 auto;
+  padding: 20px;
+}

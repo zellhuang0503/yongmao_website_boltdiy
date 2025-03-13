@@ -1,0 +1,44 @@
+.navigation {
+  background-color: #242433;
+  padding: 15px 20px;
+  display: flex; /* 啟用 Flexbox */
+  justify-content: space-between; /* Logo 和菜單之間留出空間 */
+  align-items: center; /* 垂直居中對齊 */
+}
+
+.navigation .logo a {
+  display: inline-block; /* 確保 logo 容器可以被正確設置樣式 */
+}
+
+.navigation .logo img {
+  height: 40px; /* 設定 logo 高度，根據實際 logo 調整 */
+  width: auto; /* 保持 logo 原始寬高比 */
+}
+
+.navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* 水平排列菜單項 */
+  align-items: center;
+}
+
+.navigation li {
+  margin-left: 20px; /* 菜單項之間的間隔 */
+}
+
+.navigation li:first-child {
+  margin-left: 0; /* 第一個菜單項左邊距設為 0 */
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #FBFEF9;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+  color: #ffffff;
+}
